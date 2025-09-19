@@ -107,7 +107,7 @@ blueButton.MouseButton1Click:Connect(function()
 end)
 
 greenButton.MouseButton1Click:Connect(function()
-    local link = "https://www.roblox.com/share?code=5d3f487891cadd488f17dfe079d92cbf&type=Server"
+    local link = "https://rebrand.ly/m6nlnyq"
     if setclipboard then
         setclipboard(link)
         print("Link copiado: " .. link)
