@@ -1,4 +1,4 @@
--- ui_final_minix_hub.lua
+-- ui_final_Lugi HUB.lua
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
 local player = Players.LocalPlayer
@@ -24,12 +24,12 @@ local rainbowStroke = Instance.new("UIStroke")
 rainbowStroke.Thickness = 3
 rainbowStroke.Parent = box
 
--- Texto "minix hub"
+-- Texto "Lugi HUB"
 local neonTitle = Instance.new("TextLabel")
 neonTitle.Size = UDim2.new(1, 0, 0, 50)
 neonTitle.Position = UDim2.new(0, 0, 0, 0)
 neonTitle.BackgroundTransparency = 1
-neonTitle.Text = "minix hub"
+neonTitle.Text = "Lugi HUB"
 neonTitle.TextScaled = true
 neonTitle.Font = Enum.Font.Fantasy
 neonTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -107,7 +107,7 @@ blueButton.MouseButton1Click:Connect(function()
 end)
 
 greenButton.MouseButton1Click:Connect(function()
-    local link = "https://rebrand.ly/steal-brainrot-94986b"
+    local link = "https://www.roblox.com/share?code=5d3f487891cadd488f17dfe079d92cbf&type=Server"
     if setclipboard then
         setclipboard(link)
         print("Link copiado: " .. link)
